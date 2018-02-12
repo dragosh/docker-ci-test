@@ -6,7 +6,7 @@ ARG NODEMON_VERSION=latest
 ARG NODE_ENV=production
 ARG PORT=80
 # Base Node
-FROM $NODE_IMG:$NODE_VERSION AS base
+FROM $NODE_IMG:$NODE_VERSION
 MAINTAINER Dragosh <oancea.dragosh@gmail.com>
 LABEL vendor="I{ustomMade"
 # Application root
