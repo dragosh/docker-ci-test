@@ -1,3 +1,5 @@
+env.NODE_IMG = 'node'
+env.NODE_VERSION = '9-alpine'
 node {
     def app
 
